@@ -9,6 +9,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)   
 set(Scene_DIR ${PROJECT_SOURCE_DIR}/src/scene)
+set(Plant_DIR ${PROJECT_SOURCE_DIR}/src/plant)
 set(Math_DIR ${PROJECT_SOURCE_DIR}/src/math_plant)
+
 
 add_subdirectory(src)
