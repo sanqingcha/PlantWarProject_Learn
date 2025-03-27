@@ -16,6 +16,8 @@ Scene* Scene::CreatScene()
 bool Scene::initScene()
 {
     printf("Scene init");
+    initgraph(1280,720,EX_SHOWCONSOLE);
+    loadimage(background_image ,"asset/background.png");
     return true;
 }
 
